@@ -1,0 +1,359 @@
+# Logfile created on Sun Oct 17 20:34:31 +0900 2010 by /
+D, [2010-10-17T20:34:31.776865 #6570] DEBUG -- ./class/Com_console.rb: select_point_info start
+D, [2010-10-17T20:34:31.777524 #6570] DEBUG -- ./class/Com_console.rb: get_mobility_info start
+D, [2010-10-17T20:34:31.788702 #6570] DEBUG -- ./class/Com_console.rb: get_mobility_info end : return 
+[{:point=>#<Point:0x4fc18 @x=2, @y=3>, :dir=>["right_down"]},
+ {:point=>#<Point:0x4eb60 @x=2, @y=4>, :dir=>["right"]},
+ {:point=>#<Point:0x4df58 @x=2, @y=5>, :dir=>["right"]},
+ {:point=>#<Point:0x4dc4c @x=7, @y=5>, :dir=>["down"]},
+ {:point=>#<Point:0x4d544 @x=2, @y=6>, :dir=>["right_up"]},
+ {:point=>#<Point:0x4d350 @x=3, @y=6>, :dir=>["up"]},
+ {:point=>#<Point:0x4c8ec @x=3, @y=7>, :dir=>["right_up"]},
+ {:point=>#<Point:0x4c6f8 @x=4, @y=7>, :dir=>["up", "right"]},
+ {:point=>#<Point:0x4c3ec @x=8, @y=7>, :dir=>["left_up"]},
+ {:point=>#<Point:0x4ba3c @x=4, @y=8>, :dir=>["right_up"]},
+ {:point=>#<Point:0x4b550 @x=6, @y=8>, :dir=>["up"]}]
+
+D, [2010-10-17T20:34:31.789389 #6570] DEBUG -- ./class/Com_console.rb: select_point_info end : return 
+{:point=>#<Point:0x4d544 @x=2, @y=6>, :dir=>["right_up"]}
+
+D, [2010-10-17T20:34:34.655011 #6570] DEBUG -- ./class/Com_console.rb: select_point_info start
+D, [2010-10-17T20:34:34.655059 #6570] DEBUG -- ./class/Com_console.rb: get_mobility_info start
+D, [2010-10-17T20:34:34.671633 #6570] DEBUG -- ./class/Com_console.rb: get_mobility_info end : return 
+[{:point=>#<Point:0x415a0 @x=2, @y=3>, :dir=>["right_down"]},
+ {:point=>#<Point:0x40718 @x=1, @y=4>, :dir=>["right"]},
+ {:point=>#<Point:0x3fd40 @x=1, @y=5>, :dir=>["right_up"]},
+ {:point=>#<Point:0x3fb4c @x=2, @y=5>, :dir=>["right"]},
+ {:point=>#<Point:0x3f78c @x=7, @y=5>, :dir=>["down"]},
+ {:point=>#<Point:0x3f1b0 @x=3, @y=6>, :dir=>["up"]},
+ {:point=>#<Point:0x3e698 @x=3, @y=7>, :dir=>["right_up"]},
+ {:point=>#<Point:0x3e4a4 @x=4, @y=7>, :dir=>["up", "right"]},
+ {:point=>#<Point:0x3e198 @x=8, @y=7>, :dir=>["left_up"]},
+ {:point=>#<Point:0x3d7e8 @x=4, @y=8>, :dir=>["right_up"]},
+ {:point=>#<Point:0x3d2fc @x=6, @y=8>, :dir=>["up"]}]
+
+D, [2010-10-17T20:34:34.672312 #6570] DEBUG -- ./class/Com_console.rb: select_point_info end : return 
+{:point=>#<Point:0x3f1b0 @x=3, @y=6>, :dir=>["up"]}
+
+D, [2010-10-17T20:34:49.500679 #6570] DEBUG -- ./class/Com_console.rb: select_point_info start
+D, [2010-10-17T20:34:49.500736 #6570] DEBUG -- ./class/Com_console.rb: get_mobility_info start
+D, [2010-10-17T20:34:49.517903 #6570] DEBUG -- ./class/Com_console.rb: get_mobility_info end : return 
+[{:point=>#<Point:0x91e24 @x=5, @y=2>, :dir=>["left_down"]},
+ {:point=>#<Point:0x91474 @x=1, @y=3>, :dir=>["right_down"]},
+ {:point=>#<Point:0x90ee8 @x=5, @y=3>, :dir=>["down", "left", "left_down"]},
+ {:point=>#<Point:0x90d30 @x=6, @y=3>, :dir=>["left_down"]},
+ {:point=>#<Point:0x90510 @x=1, @y=4>, :dir=>["right"]},
+ {:point=>#<Point:0x90218 @x=6, @y=4>, :dir=>["down", "left"]},
+ {:point=>#<Point:0x8fb24 @x=1, @y=5>, :dir=>["right_up"]},
+ {:point=>#<Point:0x8f5c0 @x=7, @y=5>, :dir=>["down", "left"]},
+ {:point=>#<Point:0x8ee40 @x=5, @y=6>, :dir=>["left", "left_up"]},
+ {:point=>#<Point:0x8e684 @x=3, @y=7>, :dir=>["right_up"]},
+ {:point=>#<Point:0x8e490 @x=4, @y=7>, :dir=>["right"]},
+ {:point=>#<Point:0x8d7d4 @x=4, @y=8>, :dir=>["right_up"]},
+ {:point=>#<Point:0x8d2e8 @x=6, @y=8>, :dir=>["up", "left_up"]}]
+
+D, [2010-10-17T20:34:49.518567 #6570] DEBUG -- ./class/Com_console.rb: select_point_info end : return 
+{:point=>#<Point:0x91474 @x=1, @y=3>, :dir=>["right_down"]}
+
+D, [2010-10-17T20:34:53.573175 #6570] DEBUG -- ./class/Com_console.rb: select_point_info start
+D, [2010-10-17T20:34:53.573224 #6570] DEBUG -- ./class/Com_console.rb: get_mobility_info start
+D, [2010-10-17T20:34:53.579374 #6570] DEBUG -- ./class/Com_console.rb: get_mobility_info end : return 
+[{:point=>#<Point:0x70940 @x=5, @y=2>, :dir=>["left_down"]},
+ {:point=>#<Point:0x6e910 @x=5, @y=3>, :dir=>["left", "left_down"]},
+ {:point=>#<Point:0x6de84 @x=6, @y=3>, :dir=>["left_down"]},
+ {:point=>#<Point:0x6c4e4 @x=6, @y=4>, :dir=>["left"]},
+ {:point=>#<Point:0x6ac0c @x=7, @y=5>, :dir=>["down", "left"]},
+ {:point=>#<Point:0x689e8 @x=4, @y=7>, :dir=>["right"]},
+ {:point=>#<Point:0x66378 @x=6, @y=8>, :dir=>["left_up"]},
+ {:point=>#<Point:0x65ff4 @x=7, @y=8>, :dir=>["left_up"]}]
+
+D, [2010-10-17T20:34:53.580660 #6570] DEBUG -- ./class/Com_console.rb: select_point_info end : return 
+{:point=>#<Point:0x6c4e4 @x=6, @y=4>, :dir=>["left"]}
+
+D, [2010-10-17T20:34:59.958234 #6570] DEBUG -- ./class/Com_console.rb: select_point_info start
+D, [2010-10-17T20:34:59.958283 #6570] DEBUG -- ./class/Com_console.rb: get_mobility_info start
+D, [2010-10-17T20:34:59.965278 #6570] DEBUG -- ./class/Com_console.rb: get_mobility_info end : return 
+[{:point=>#<Point:0x5b5b8 @x=3, @y=2>, :dir=>["down", "right_down"]},
+ {:point=>#<Point:0x5b2c0 @x=4, @y=2>, :dir=>["down", "left_down"]},
+ {:point=>#<Point:0x5a640 @x=5, @y=3>, :dir=>["left"]},
+ {:point=>#<Point:0x5904c @x=7, @y=5>, :dir=>["down", "left"]},
+ {:point=>#<Point:0x58368 @x=3, @y=7>, :dir=>["right_up"]},
+ {:point=>#<Point:0x58174 @x=4, @y=7>, :dir=>["up", "right"]},
+ {:point=>#<Point:0x57e54 @x=8, @y=7>, :dir=>["left_up"]},
+ {:point=>#<Point:0x5724c @x=5, @y=8>, :dir=>["up"]},
+ {:point=>#<Point:0x570e4 @x=6, @y=8>, :dir=>["up", "left_up"]}]
+
+D, [2010-10-17T20:34:59.966160 #6570] DEBUG -- ./class/Com_console.rb: select_point_info end : return 
+{:point=>#<Point:0x58368 @x=3, @y=7>, :dir=>["right_up"]}
+
+D, [2010-10-17T20:35:02.416926 #6570] DEBUG -- ./class/Com_console.rb: select_point_info start
+D, [2010-10-17T20:35:02.416975 #6570] DEBUG -- ./class/Com_console.rb: get_mobility_info start
+D, [2010-10-17T20:35:02.430417 #6570] DEBUG -- ./class/Com_console.rb: get_mobility_info end : return 
+[{:point=>#<Point:0x3bccc @x=1, @y=1>, :dir=>["right_down"]},
+ {:point=>#<Point:0x3ba38 @x=3, @y=1>, :dir=>["left_down"]},
+ {:point=>#<Point:0x3a818 @x=3, @y=2>, :dir=>["down", "right_down"]},
+ {:point=>#<Point:0x3a41c @x=4, @y=2>, :dir=>["down", "left_down"]},
+ {:point=>#<Point:0x28af0 @x=5, @y=3>, :dir=>["left"]},
+ {:point=>#<Point:0x26868 @x=7, @y=5>, :dir=>["down", "left"]},
+ {:point=>#<Point:0x254a4 @x=4, @y=7>, :dir=>["right"]},
+ {:point=>#<Point:0x24c48 @x=8, @y=7>, :dir=>["left_up"]},
+ {:point=>#<Point:0x22c54 @x=5, @y=8>, :dir=>["up"]},
+ {:point=>#<Point:0x228f8 @x=6, @y=8>, :dir=>["up", "left_up"]}]
+
+D, [2010-10-17T20:35:02.431175 #6570] DEBUG -- ./class/Com_console.rb: select_point_info end : return 
+{:point=>#<Point:0x3a41c @x=4, @y=2>, :dir=>["down", "left_down"]}
+
+D, [2010-10-17T20:35:05.955815 #6570] DEBUG -- ./class/Com_console.rb: select_point_info start
+D, [2010-10-17T20:35:05.955863 #6570] DEBUG -- ./class/Com_console.rb: get_mobility_info start
+D, [2010-10-17T20:35:05.961106 #6570] DEBUG -- ./class/Com_console.rb: get_mobility_info end : return 
+[{:point=>#<Point:0x82898 @x=1, @y=1>, :dir=>["right_down"]},
+ {:point=>#<Point:0x82604 @x=3, @y=1>, :dir=>["left_down"]},
+ {:point=>#<Point:0x7f51c @x=2, @y=5>, :dir=>["right_up"]},
+ {:point=>#<Point:0x7f1fc @x=7, @y=5>, :dir=>["left"]},
+ {:point=>#<Point:0x7e20c @x=8, @y=7>, :dir=>["left_up"]},
+ {:point=>#<Point:0x7d5f0 @x=5, @y=8>, :dir=>["up"]},
+ {:point=>#<Point:0x7d488 @x=6, @y=8>, :dir=>["up", "left_up"]}]
+
+D, [2010-10-17T20:35:05.961728 #6570] DEBUG -- ./class/Com_console.rb: select_point_info end : return 
+{:point=>#<Point:0x7f51c @x=2, @y=5>, :dir=>["right_up"]}
+
+D, [2010-10-17T20:35:09.538655 #6570] DEBUG -- ./class/Com_console.rb: select_point_info start
+D, [2010-10-17T20:35:09.538712 #6570] DEBUG -- ./class/Com_console.rb: get_mobility_info start
+D, [2010-10-17T20:35:09.548892 #6570] DEBUG -- ./class/Com_console.rb: get_mobility_info end : return 
+[{:point=>#<Point:0x83748 @x=1, @y=1>, :dir=>["right_down"]},
+ {:point=>#<Point:0x834b4 @x=3, @y=1>, :dir=>["left_down"]},
+ {:point=>#<Point:0x825dc @x=1, @y=2>, :dir=>["right_down"]},
+ {:point=>#<Point:0x80d54 @x=1, @y=4>, :dir=>["right"]},
+ {:point=>#<Point:0x80548 @x=1, @y=5>,
+  :dir=>["right", "right_up", "right_down"]},
+ {:point=>#<Point:0x80200 @x=7, @y=5>, :dir=>["left"]},
+ {:point=>#<Point:0x7fcd8 @x=1, @y=6>, :dir=>["right", "right_up"]},
+ {:point=>#<Point:0x7f8dc @x=1, @y=7>, :dir=>["right", "right_up"]},
+ {:point=>#<Point:0x7f33c @x=8, @y=7>, :dir=>["left_up"]},
+ {:point=>#<Point:0x7eff4 @x=1, @y=8>, :dir=>["right_up"]},
+ {:point=>#<Point:0x7e694 @x=5, @y=8>, :dir=>["up"]},
+ {:point=>#<Point:0x7e52c @x=6, @y=8>, :dir=>["up", "left_up"]},
+ {:point=>#<Point:0x7e310 @x=7, @y=8>, :dir=>["left_up"]}]
+
+D, [2010-10-17T20:35:09.549688 #6570] DEBUG -- ./class/Com_console.rb: select_point_info end : return 
+{:point=>#<Point:0x80200 @x=7, @y=5>, :dir=>["left"]}
+
+D, [2010-10-17T20:35:12.408967 #6570] DEBUG -- ./class/Com_console.rb: select_point_info start
+D, [2010-10-17T20:35:12.409022 #6570] DEBUG -- ./class/Com_console.rb: get_mobility_info start
+D, [2010-10-17T20:35:12.420875 #6570] DEBUG -- ./class/Com_console.rb: get_mobility_info end : return 
+[{:point=>#<Point:0x530fc @x=1, @y=1>, :dir=>["right_down"]},
+ {:point=>#<Point:0x52e54 @x=3, @y=1>, :dir=>["left_down"]},
+ {:point=>#<Point:0x529b8 @x=5, @y=1>, :dir=>["left_down"]},
+ {:point=>#<Point:0x51d74 @x=1, @y=2>, :dir=>["right_down"]},
+ {:point=>#<Point:0x5198c @x=3, @y=2>, :dir=>["right_down"]},
+ {:point=>#<Point:0x51338 @x=5, @y=2>, :dir=>["left_down"]},
+ {:point=>#<Point:0x50758 @x=5, @y=3>, :dir=>["left", "left_down"]},
+ {:point=>#<Point:0x4fde4 @x=1, @y=4>, :dir=>["right"]},
+ {:point=>#<Point:0x4f5ec @x=1, @y=5>,
+  :dir=>["right", "right_up", "right_down"]},
+ {:point=>#<Point:0x4efd4 @x=1, @y=6>, :dir=>["right", "right_up"]},
+ {:point=>#<Point:0x4ebec @x=1, @y=7>, :dir=>["right", "right_up"]},
+ {:point=>#<Point:0x4e930 @x=4, @y=7>, :dir=>["right_up"]},
+ {:point=>#<Point:0x4e5d4 @x=8, @y=7>, :dir=>["left_up"]},
+ {:point=>#<Point:0x4e264 @x=1, @y=8>, :dir=>["right_up"]},
+ {:point=>#<Point:0x4da80 @x=4, @y=8>, :dir=>["right_up"]},
+ {:point=>#<Point:0x4d878 @x=5, @y=8>, :dir=>["up"]},
+ {:point=>#<Point:0x4d670 @x=6, @y=8>, :dir=>["up", "left_up"]},
+ {:point=>#<Point:0x4d454 @x=7, @y=8>, :dir=>["up", "left_up"]}]
+
+D, [2010-10-17T20:35:12.421528 #6570] DEBUG -- ./class/Com_console.rb: select_point_info end : return 
+{:point=>#<Point:0x4e930 @x=4, @y=7>, :dir=>["right_up"]}
+
+D, [2010-10-17T20:35:15.616260 #6570] DEBUG -- ./class/Com_console.rb: select_point_info start
+D, [2010-10-17T20:35:15.616313 #6570] DEBUG -- ./class/Com_console.rb: get_mobility_info start
+D, [2010-10-17T20:35:15.634555 #6570] DEBUG -- ./class/Com_console.rb: get_mobility_info end : return 
+[{:point=>#<Point:0x23eec @x=1, @y=1>, :dir=>["right_down"]},
+ {:point=>#<Point:0x2385c @x=3, @y=1>, :dir=>["left_down"]},
+ {:point=>#<Point:0x23474 @x=5, @y=1>, :dir=>["left_down"]},
+ {:point=>#<Point:0x209a4 @x=1, @y=2>, :dir=>["right_down"]},
+ {:point=>#<Point:0x1ffcc @x=3, @y=2>, :dir=>["right_down"]},
+ {:point=>#<Point:0x1ee24 @x=5, @y=2>, :dir=>["left_down"]},
+ {:point=>#<Point:0x1c638 @x=5, @y=3>, :dir=>["left", "left_down"]},
+ {:point=>#<Point:0x1a130 @x=1, @y=4>, :dir=>["right", "right_down"]},
+ {:point=>#<Point:0x197a8 @x=7, @y=4>, :dir=>["left_down"]},
+ {:point=>#<Point:0x17fd4 @x=1, @y=5>,
+  :dir=>["right", "right_up", "right_down"]},
+ {:point=>#<Point:0x17bd8 @x=1, @y=6>, :dir=>["right", "right_up"]},
+ {:point=>#<Point:0x17278 @x=1, @y=7>, :dir=>["right", "right_up"]},
+ {:point=>#<Point:0x16760 @x=8, @y=7>, :dir=>["left", "left_up"]},
+ {:point=>#<Point:0x15c70 @x=1, @y=8>, :dir=>["right_up"]},
+ {:point=>#<Point:0x141cc @x=5, @y=8>, :dir=>["up"]},
+ {:point=>#<Point:0x13ee8 @x=6, @y=8>, :dir=>["up", "left_up"]},
+ {:point=>#<Point:0x13b64 @x=7, @y=8>, :dir=>["left_up"]}]
+
+D, [2010-10-17T20:35:15.635208 #6570] DEBUG -- ./class/Com_console.rb: select_point_info end : return 
+{:point=>#<Point:0x2385c @x=3, @y=1>, :dir=>["left_down"]}
+
+D, [2010-10-17T20:35:21.442261 #6570] DEBUG -- ./class/Com_console.rb: select_point_info start
+D, [2010-10-17T20:35:21.442314 #6570] DEBUG -- ./class/Com_console.rb: get_mobility_info start
+D, [2010-10-17T20:35:21.453572 #6570] DEBUG -- ./class/Com_console.rb: get_mobility_info end : return 
+[{:point=>#<Point:0x738d4 @x=1, @y=1>, :dir=>["right"]},
+ {:point=>#<Point:0x73604 @x=5, @y=1>, :dir=>["left", "left_down"]},
+ {:point=>#<Point:0x71d2c @x=1, @y=2>, :dir=>["right_down"]},
+ {:point=>#<Point:0x714e4 @x=5, @y=2>, :dir=>["left_down"]},
+ {:point=>#<Point:0x6f5a4 @x=5, @y=3>,
+  :dir=>["down", "left", "left_up", "left_down"]},
+ {:point=>#<Point:0x6e884 @x=7, @y=3>, :dir=>["left_down"]},
+ {:point=>#<Point:0x6dd08 @x=8, @y=3>, :dir=>["left_down"]},
+ {:point=>#<Point:0x6cd7c @x=1, @y=4>, :dir=>["right", "right_down"]},
+ {:point=>#<Point:0x6ca0c @x=8, @y=4>, :dir=>["left"]},
+ {:point=>#<Point:0x6c5ac @x=1, @y=5>,
+  :dir=>["right", "right_up", "right_down"]},
+ {:point=>#<Point:0x6b828 @x=1, @y=6>, :dir=>["right", "right_up"]},
+ {:point=>#<Point:0x6b0d0 @x=1, @y=7>, :dir=>["right", "right_up"]},
+ {:point=>#<Point:0x6ad4c @x=8, @y=7>, :dir=>["left"]},
+ {:point=>#<Point:0x6a838 @x=2, @y=8>, :dir=>["up"]},
+ {:point=>#<Point:0x6971c @x=5, @y=8>, :dir=>["up"]},
+ {:point=>#<Point:0x69280 @x=6, @y=8>, :dir=>["left_up"]},
+ {:point=>#<Point:0x68ca4 @x=7, @y=8>, :dir=>["left_up"]}]
+
+D, [2010-10-17T20:35:21.454301 #6570] DEBUG -- ./class/Com_console.rb: select_point_info end : return 
+{:point=>#<Point:0x6b0d0 @x=1, @y=7>, :dir=>["right", "right_up"]}
+
+D, [2010-10-17T20:35:24.860285 #6570] DEBUG -- ./class/Com_console.rb: select_point_info start
+D, [2010-10-17T20:35:24.860343 #6570] DEBUG -- ./class/Com_console.rb: get_mobility_info start
+D, [2010-10-17T20:35:24.869605 #6570] DEBUG -- ./class/Com_console.rb: get_mobility_info end : return 
+[{:point=>#<Point:0x60d38 @x=1, @y=1>, :dir=>["right"]},
+ {:point=>#<Point:0x60a18 @x=5, @y=1>, :dir=>["left"]},
+ {:point=>#<Point:0x5ff8c @x=1, @y=2>, :dir=>["right_down"]},
+ {:point=>#<Point:0x5fbcc @x=5, @y=2>, :dir=>["left"]},
+ {:point=>#<Point:0x5f17c @x=5, @y=3>,
+  :dir=>["down", "left", "left_up", "left_down"]},
+ {:point=>#<Point:0x5ef9c @x=6, @y=3>, :dir=>["left_down"]},
+ {:point=>#<Point:0x5ec90 @x=7, @y=3>, :dir=>["left_down"]},
+ {:point=>#<Point:0x5e998 @x=8, @y=3>, :dir=>["left_down"]},
+ {:point=>#<Point:0x5e5c4 @x=1, @y=4>, :dir=>["right_down"]},
+ {:point=>#<Point:0x5d69c @x=8, @y=7>, :dir=>["left"]},
+ {:point=>#<Point:0x5caf8 @x=5, @y=8>, :dir=>["up"]},
+ {:point=>#<Point:0x5c97c @x=6, @y=8>, :dir=>["left_up"]},
+ {:point=>#<Point:0x5c698 @x=7, @y=8>, :dir=>["left_up"]}]
+
+D, [2010-10-17T20:35:24.870330 #6570] DEBUG -- ./class/Com_console.rb: select_point_info end : return 
+{:point=>#<Point:0x5c97c @x=6, @y=8>, :dir=>["left_up"]}
+
+D, [2010-10-17T20:35:30.933190 #6570] DEBUG -- ./class/Com_console.rb: select_point_info start
+D, [2010-10-17T20:35:30.933239 #6570] DEBUG -- ./class/Com_console.rb: get_mobility_info start
+D, [2010-10-17T20:35:30.938817 #6570] DEBUG -- ./class/Com_console.rb: get_mobility_info end : return 
+[{:point=>#<Point:0x77768 @x=1, @y=1>, :dir=>["right"]},
+ {:point=>#<Point:0x77498 @x=5, @y=1>, :dir=>["left"]},
+ {:point=>#<Point:0x75f1c @x=5, @y=2>, :dir=>["left"]},
+ {:point=>#<Point:0x75544 @x=5, @y=3>, :dir=>["left", "left_up", "left_down"]},
+ {:point=>#<Point:0x7533c @x=6, @y=3>, :dir=>["down", "left_down"]},
+ {:point=>#<Point:0x750e4 @x=7, @y=3>, :dir=>["left_down"]},
+ {:point=>#<Point:0x7317c @x=8, @y=7>, :dir=>["left"]},
+ {:point=>#<Point:0x71d40 @x=4, @y=8>, :dir=>["up", "right"]}]
+
+D, [2010-10-17T20:35:30.939503 #6570] DEBUG -- ./class/Com_console.rb: select_point_info end : return 
+{:point=>#<Point:0x77498 @x=5, @y=1>, :dir=>["left"]}
+
+D, [2010-10-17T20:35:33.388692 #6570] DEBUG -- ./class/Com_console.rb: select_point_info start
+D, [2010-10-17T20:35:33.388741 #6570] DEBUG -- ./class/Com_console.rb: get_mobility_info start
+D, [2010-10-17T20:35:33.399257 #6570] DEBUG -- ./class/Com_console.rb: get_mobility_info end : return 
+[{:point=>#<Point:0x231e0 @x=5, @y=2>, :dir=>["left"]},
+ {:point=>#<Point:0x20878 @x=5, @y=3>, :dir=>["left", "left_down"]},
+ {:point=>#<Point:0x1fdec @x=6, @y=3>, :dir=>["down", "left_down"]},
+ {:point=>#<Point:0x1ef8c @x=7, @y=3>, :dir=>["left_down"]},
+ {:point=>#<Point:0x19f8c @x=8, @y=7>, :dir=>["left"]},
+ {:point=>#<Point:0x17d54 @x=4, @y=8>, :dir=>["up", "right"]}]
+
+D, [2010-10-17T20:35:33.399895 #6570] DEBUG -- ./class/Com_console.rb: select_point_info end : return 
+{:point=>#<Point:0x19f8c @x=8, @y=7>, :dir=>["left"]}
+
+D, [2010-10-17T20:35:36.307946 #6570] DEBUG -- ./class/Com_console.rb: select_point_info start
+D, [2010-10-17T20:35:36.307994 #6570] DEBUG -- ./class/Com_console.rb: get_mobility_info start
+D, [2010-10-17T20:35:36.312867 #6570] DEBUG -- ./class/Com_console.rb: get_mobility_info end : return 
+[{:point=>#<Point:0x52b34 @x=5, @y=2>, :dir=>["left"]},
+ {:point=>#<Point:0x520d0 @x=5, @y=3>, :dir=>["down", "left", "left_down"]},
+ {:point=>#<Point:0x51edc @x=6, @y=3>, :dir=>["left_down"]},
+ {:point=>#<Point:0x51bd0 @x=7, @y=3>, :dir=>["left_down"]},
+ {:point=>#<Point:0x518d8 @x=8, @y=3>, :dir=>["left_down"]},
+ {:point=>#<Point:0x51518 @x=1, @y=4>, :dir=>["right_down"]},
+ {:point=>#<Point:0x51108 @x=8, @y=4>, :dir=>["down", "left_down"]}]
+
+D, [2010-10-17T20:35:36.313491 #6570] DEBUG -- ./class/Com_console.rb: select_point_info end : return 
+{:point=>#<Point:0x51edc @x=6, @y=3>, :dir=>["left_down"]}
+
+D, [2010-10-17T20:35:40.753637 #6570] DEBUG -- ./class/Com_console.rb: select_point_info start
+D, [2010-10-17T20:35:40.753686 #6570] DEBUG -- ./class/Com_console.rb: get_mobility_info start
+D, [2010-10-17T20:35:40.757378 #6570] DEBUG -- ./class/Com_console.rb: get_mobility_info end : return 
+[{:point=>#<Point:0x81f9c @x=5, @y=2>, :dir=>["left"]},
+ {:point=>#<Point:0x81560 @x=5, @y=3>, :dir=>["left", "left_down"]},
+ {:point=>#<Point:0x81358 @x=7, @y=3>, :dir=>["left_down"]},
+ {:point=>#<Point:0x80d2c @x=1, @y=4>, :dir=>["right", "right_down"]},
+ {:point=>#<Point:0x809bc @x=8, @y=4>, :dir=>["down", "left"]}]
+
+D, [2010-10-17T20:35:40.758035 #6570] DEBUG -- ./class/Com_console.rb: select_point_info end : return 
+{:point=>#<Point:0x80d2c @x=1, @y=4>, :dir=>["right", "right_down"]}
+
+D, [2010-10-17T20:35:43.019084 #6570] DEBUG -- ./class/Com_console.rb: select_point_info start
+D, [2010-10-17T20:35:43.019133 #6570] DEBUG -- ./class/Com_console.rb: get_mobility_info start
+D, [2010-10-17T20:35:43.022775 #6570] DEBUG -- ./class/Com_console.rb: get_mobility_info end : return 
+[{:point=>#<Point:0x4202c @x=1, @y=2>, :dir=>["right_down"]},
+ {:point=>#<Point:0x41c80 @x=5, @y=2>, :dir=>["left_down"]},
+ {:point=>#<Point:0x41168 @x=5, @y=3>, :dir=>["left"]},
+ {:point=>#<Point:0x40f4c @x=7, @y=3>, :dir=>["left_down"]},
+ {:point=>#<Point:0x407e0 @x=8, @y=4>, :dir=>["down", "left"]}]
+
+D, [2010-10-17T20:35:43.023390 #6570] DEBUG -- ./class/Com_console.rb: select_point_info end : return 
+{:point=>#<Point:0x41168 @x=5, @y=3>, :dir=>["left"]}
+
+D, [2010-10-17T20:35:46.320322 #6570] DEBUG -- ./class/Com_console.rb: select_point_info start
+D, [2010-10-17T20:35:46.320371 #6570] DEBUG -- ./class/Com_console.rb: get_mobility_info start
+D, [2010-10-17T20:35:46.322856 #6570] DEBUG -- ./class/Com_console.rb: get_mobility_info end : return 
+[{:point=>#<Point:0x79edc @x=8, @y=4>, :dir=>["down", "left"]},
+ {:point=>#<Point:0x79acc @x=1, @y=6>, :dir=>["up", "right", "right_up"]},
+ {:point=>#<Point:0x7916c @x=3, @y=8>, :dir=>["up"]}]
+
+D, [2010-10-17T20:35:46.323546 #6570] DEBUG -- ./class/Com_console.rb: select_point_info end : return 
+{:point=>#<Point:0x79acc @x=1, @y=6>, :dir=>["up", "right", "right_up"]}
+
+D, [2010-10-17T20:35:48.663789 #6570] DEBUG -- ./class/Com_console.rb: select_point_info start
+D, [2010-10-17T20:35:48.663837 #6570] DEBUG -- ./class/Com_console.rb: get_mobility_info start
+D, [2010-10-17T20:35:48.665742 #6570] DEBUG -- ./class/Com_console.rb: get_mobility_info end : return 
+[{:point=>#<Point:0x54574 @x=8, @y=4>, :dir=>["down", "left"]},
+ {:point=>#<Point:0x539bc @x=3, @y=8>, :dir=>["up"]}]
+
+D, [2010-10-17T20:35:48.666402 #6570] DEBUG -- ./class/Com_console.rb: select_point_info end : return 
+{:point=>#<Point:0x54574 @x=8, @y=4>, :dir=>["down", "left"]}
+
+D, [2010-10-17T20:35:50.592073 #6570] DEBUG -- ./class/Com_console.rb: select_point_info start
+D, [2010-10-17T20:35:50.592124 #6570] DEBUG -- ./class/Com_console.rb: get_mobility_info start
+D, [2010-10-17T20:35:50.593938 #6570] DEBUG -- ./class/Com_console.rb: get_mobility_info end : return 
+[{:point=>#<Point:0x3ceb0 @x=2, @y=8>, :dir=>["up", "right_up"]},
+ {:point=>#<Point:0x3cd0c @x=3, @y=8>, :dir=>["right_up"]}]
+
+D, [2010-10-17T20:35:50.594608 #6570] DEBUG -- ./class/Com_console.rb: select_point_info end : return 
+{:point=>#<Point:0x3ceb0 @x=2, @y=8>, :dir=>["up", "right_up"]}
+
+D, [2010-10-17T20:36:08.407587 #6570] DEBUG -- ./class/Com_console.rb: select_point_info start
+D, [2010-10-17T20:36:08.407635 #6570] DEBUG -- ./class/Com_console.rb: get_mobility_info start
+D, [2010-10-17T20:36:08.409974 #6570] DEBUG -- ./class/Com_console.rb: get_mobility_info end : return 
+[{:point=>#<Point:0x8bca4 @x=5, @y=2>,
+  :dir=>["down", "left_down", "right_down"]},
+ {:point=>#<Point:0x8b6dc @x=6, @y=2>, :dir=>["left_down", "right_down"]},
+ {:point=>#<Point:0x8ae30 @x=7, @y=2>, :dir=>["left_down"]}]
+
+D, [2010-10-17T20:36:08.410614 #6570] DEBUG -- ./class/Com_console.rb: select_point_info end : return 
+{:point=>#<Point:0x8b6dc @x=6, @y=2>, :dir=>["left_down", "right_down"]}
+
+D, [2010-10-17T20:36:27.550868 #6570] DEBUG -- ./class/Com_console.rb: select_point_info start
+D, [2010-10-17T20:36:27.550917 #6570] DEBUG -- ./class/Com_console.rb: get_mobility_info start
+D, [2010-10-17T20:36:27.551884 #6570] DEBUG -- ./class/Com_console.rb: get_mobility_info end : return 
+[{:point=>#<Point:0x3f200 @x=7, @y=1>, :dir=>["left_down"]}]
+
+D, [2010-10-17T20:36:27.552484 #6570] DEBUG -- ./class/Com_console.rb: select_point_info end : return 
+{:point=>#<Point:0x3f200 @x=7, @y=1>, :dir=>["left_down"]}
+
+D, [2010-10-17T20:36:31.838884 #6570] DEBUG -- ./class/Com_console.rb: select_point_info start
+D, [2010-10-17T20:36:31.838933 #6570] DEBUG -- ./class/Com_console.rb: get_mobility_info start
+D, [2010-10-17T20:36:31.839858 #6570] DEBUG -- ./class/Com_console.rb: get_mobility_info end : return 
+[{:point=>#<Point:0x51e14 @x=8, @y=2>, :dir=>["left"]}]
+
+D, [2010-10-17T20:36:31.840461 #6570] DEBUG -- ./class/Com_console.rb: select_point_info end : return 
+{:point=>#<Point:0x51e14 @x=8, @y=2>, :dir=>["left"]}
+

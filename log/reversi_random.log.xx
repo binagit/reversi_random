@@ -1,0 +1,105 @@
+# Logfile created on Sun Oct 17 12:59:33 +0900 2010 by /
+D, [2010-10-17T12:59:33.298749 #6097] DEBUG -- main_console.rb: main_console start
+D, [2010-10-17T12:59:33.298875 #6097] DEBUG -- ./class/System_console.rb: System_console initialize start
+D, [2010-10-17T12:59:33.298928 #6097] DEBUG -- ./class/System_console.rb: System_console initialize end
+D, [2010-10-17T12:59:33.298975 #6097] DEBUG -- ./class/System_console.rb: commit_player start
+D, [2010-10-17T12:59:34.373167 #6097] DEBUG -- ./class/Human_console.rb: Human_console initialize start
+D, [2010-10-17T12:59:34.373255 #6097] DEBUG -- ./class/Human_console.rb: Human_console initialize end
+D, [2010-10-17T12:59:34.373349 #6097] DEBUG -- ./class/Com_console.rb: Com_console initialize start
+D, [2010-10-17T12:59:34.373402 #6097] DEBUG -- ./class/Com_console.rb: Com_console initialize end
+D, [2010-10-17T12:59:34.373448 #6097] DEBUG -- ./class/System_console.rb: commit_player end
+D, [2010-10-17T12:59:34.373495 #6097] DEBUG -- ./class/System_console.rb: is_game_over start
+D, [2010-10-17T12:59:34.373541 #6097] DEBUG -- ./class/System_console.rb: is_pass start
+D, [2010-10-17T12:59:34.373976 #6097] DEBUG -- ./class/System_console.rb: is_pass end : return false
+D, [2010-10-17T12:59:34.374023 #6097] DEBUG -- ./class/System_console.rb: is_game_over end : return false
+D, [2010-10-17T12:59:34.374071 #6097] DEBUG -- main_console.rb: 手数: 0
+D, [2010-10-17T12:59:34.374261 #6097] DEBUG -- main_console.rb: プレイヤー: #<Human_console:0x88680 @logger=#<Logger:0x88644 @logdev=#<Logger::LogDevice:0x885e0 @shift_age=5, @filename="log/reversi_random.log", @mutex=#<Logger::LogDevice::LogDeviceMutex:0x885b8 @mon_count=0, @mon_owner=nil, @mon_waiting_queue=[], @mon_entering_queue=[]>, @dev=#<File:log/reversi_random.log>, @shift_size=1048576>, @level=0, @default_formatter=#<Logger::Formatter:0x88608 @datetime_format=nil>, @formatter=nil, @progname="./class/Human_console.rb">, @e_color="W", @conf=#<Conf:0x88658 @log_level=0, @log_rotate=5, @log_file="log/reversi_random.log">, @color="B", @board=[["S", "S", "S", "S", "S", "S", "S", "S", "S", "S"], ["S", "E", "E", "E", "E", "E", "E", "E", "E", "S"], ["S", "E", "E", "E", "E", "E", "E", "E", "E", "S"], ["S", "E", "E", "E", "E", "E", "E", "E", "E", "S"], ["S", "E", "E", "E", "W", "B", "E", "E", "E", "S"], ["S", "E", "E", "E", "B", "W", "E", "E", "E", "S"], ["S", "E", "E", "E", "E", "E", "E", "E", "E", "S"], ["S", "E", "E", "E", "E", "E", "E", "E", "E", "S"], ["S", "E", "E", "E", "E", "E", "E", "E", "E", "S"]]>
+D, [2010-10-17T12:59:34.374311 #6097] DEBUG -- ./class/System_console.rb: is_pass start
+D, [2010-10-17T12:59:34.374727 #6097] DEBUG -- ./class/System_console.rb: is_pass end : return false
+D, [2010-10-17T12:59:34.374775 #6097] DEBUG -- main_console.rb: パスでない
+D, [2010-10-17T12:59:34.375420 #6097] DEBUG -- ./class/Human_console.rb: get_mobility_info start
+D, [2010-10-17T12:59:34.376564 #6097] DEBUG -- ./class/Human_console.rb: get_mobility_info end : return [{:dir=>["down"], :point=>#<Point:0x7d3ac @y=3, @x=4>}, {:dir=>["right"], :point=>#<Point:0x7c6c8 @y=4, @x=3>}, {:dir=>["left"], :point=>#<Point:0x7b098 @y=5, @x=6>}, {:dir=>["up"], :point=>#<Point:0x7a38c @y=6, @x=5>}]
+D, [2010-10-17T12:59:35.381127 #6097] DEBUG -- main_console.rb: 置く場所: {:dir=>["left"], :point=>#<Point:0x7b098 @y=5, @x=6>}
+D, [2010-10-17T12:59:35.381217 #6097] DEBUG -- ./class/System_console.rb: update start
+D, [2010-10-17T12:59:35.381277 #6097] DEBUG -- ./class/System_console.rb: mobility_info : {:dir=>["left"], :point=>#<Point:0x7b098 @y=5, @x=6>}
+D, [2010-10-17T12:59:35.381329 #6097] DEBUG -- ./class/System_console.rb: call : "left"
+D, [2010-10-17T12:59:35.381384 #6097] DEBUG -- ./class/System_console.rb: update end
+D, [2010-10-17T12:59:35.381431 #6097] DEBUG -- ./class/System_console.rb: change_player start
+D, [2010-10-17T12:59:35.381477 #6097] DEBUG -- ./class/System_console.rb: change_player end
+D, [2010-10-17T12:59:35.381522 #6097] DEBUG -- ./class/System_console.rb: change_color start
+D, [2010-10-17T12:59:35.381567 #6097] DEBUG -- ./class/System_console.rb: change_color end
+D, [2010-10-17T12:59:35.381650 #6097] DEBUG -- ./class/System_console.rb: is_game_over start
+D, [2010-10-17T12:59:35.381697 #6097] DEBUG -- ./class/System_console.rb: is_pass start
+D, [2010-10-17T12:59:35.382334 #6097] DEBUG -- ./class/System_console.rb: is_pass end : return false
+D, [2010-10-17T12:59:35.382381 #6097] DEBUG -- ./class/System_console.rb: is_game_over end : return false
+D, [2010-10-17T12:59:35.382428 #6097] DEBUG -- main_console.rb: 手数: 1
+D, [2010-10-17T12:59:35.382611 #6097] DEBUG -- main_console.rb: プレイヤー: #<Com_console:0x8839c @undo=#<Undo:0x880b8 @board=[]>, @logger=#<Logger:0x882c0 @logdev=#<Logger::LogDevice:0x8825c @shift_age=5, @filename="log/reversi_random.log", @mutex=#<Logger::LogDevice::LogDeviceMutex:0x88234 @mon_count=0, @mon_owner=nil, @mon_waiting_queue=[], @mon_entering_queue=[]>, @dev=#<File:log/reversi_random.log>, @shift_size=1048576>, @level=0, @default_formatter=#<Logger::Formatter:0x88284 @datetime_format=nil>, @formatter=nil, @progname="./class/Com_console.rb">, @e_color="B", @conf=#<Conf:0x882e8 @log_level=0, @log_rotate=5, @log_file="log/reversi_random.log">, @color="W", @board=[["S", "S", "S", "S", "S", "S", "S", "S", "S", "S"], ["S", "E", "E", "E", "E", "E", "E", "E", "E", "S"], ["S", "E", "E", "E", "E", "E", "E", "E", "E", "S"], ["S", "E", "E", "E", "E", "E", "E", "E", "E", "S"], ["S", "E", "E", "E", "W", "B", "E", "E", "E", "S"], ["S", "E", "E", "E", "B", "B", "B", "E", "E", "S"], ["S", "E", "E", "E", "E", "E", "E", "E", "E", "S"], ["S", "E", "E", "E", "E", "E", "E", "E", "E", "S"], ["S", "E", "E", "E", "E", "E", "E", "E", "E", "S"]]>
+D, [2010-10-17T12:59:35.382659 #6097] DEBUG -- ./class/System_console.rb: is_pass start
+D, [2010-10-17T12:59:35.383281 #6097] DEBUG -- ./class/System_console.rb: is_pass end : return false
+D, [2010-10-17T12:59:35.383328 #6097] DEBUG -- main_console.rb: パスでない
+D, [2010-10-17T12:59:35.384047 #6097] DEBUG -- ./class/Com_console.rb: select_point_info start
+D, [2010-10-17T12:59:35.384121 #6097] DEBUG -- ./class/Com_console.rb: get_mobility_info start
+D, [2010-10-17T12:59:35.385288 #6097] DEBUG -- ./class/Com_console.rb: get_mobility_info end : return [{:dir=>["left"], :point=>#<Point:0x69424 @y=4, @x=6>}, {:dir=>["up"], :point=>#<Point:0x67944 @y=6, @x=4>}, {:dir=>["left_up"], :point=>#<Point:0x674f8 @y=6, @x=6>}]
+D, [2010-10-17T12:59:35.385447 #6097] DEBUG -- ./class/Com_console.rb: select_point_info end : return {:dir=>["left_up"], :point=>#<Point:0x674f8 @y=6, @x=6>}
+D, [2010-10-17T12:59:35.385507 #6097] DEBUG -- main_console.rb: 置く場所: {:dir=>["left_up"], :point=>#<Point:0x674f8 @y=6, @x=6>}
+D, [2010-10-17T12:59:35.385554 #6097] DEBUG -- ./class/System_console.rb: update start
+D, [2010-10-17T12:59:35.385610 #6097] DEBUG -- ./class/System_console.rb: mobility_info : {:dir=>["left_up"], :point=>#<Point:0x674f8 @y=6, @x=6>}
+D, [2010-10-17T12:59:35.385660 #6097] DEBUG -- ./class/System_console.rb: call : "left_up"
+D, [2010-10-17T12:59:35.385713 #6097] DEBUG -- ./class/System_console.rb: update end
+D, [2010-10-17T12:59:35.385778 #6097] DEBUG -- ./class/System_console.rb: change_player start
+D, [2010-10-17T12:59:35.385832 #6097] DEBUG -- ./class/System_console.rb: change_player end
+D, [2010-10-17T12:59:35.385877 #6097] DEBUG -- ./class/System_console.rb: change_color start
+D, [2010-10-17T12:59:35.385922 #6097] DEBUG -- ./class/System_console.rb: change_color end
+D, [2010-10-17T12:59:35.385967 #6097] DEBUG -- ./class/System_console.rb: is_game_over start
+D, [2010-10-17T12:59:35.386012 #6097] DEBUG -- ./class/System_console.rb: is_pass start
+D, [2010-10-17T12:59:35.386430 #6097] DEBUG -- ./class/System_console.rb: is_pass end : return false
+D, [2010-10-17T12:59:35.386477 #6097] DEBUG -- ./class/System_console.rb: is_game_over end : return false
+D, [2010-10-17T12:59:35.386524 #6097] DEBUG -- main_console.rb: 手数: 2
+D, [2010-10-17T12:59:35.386713 #6097] DEBUG -- main_console.rb: プレイヤー: #<Human_console:0x88680 @logger=#<Logger:0x88644 @logdev=#<Logger::LogDevice:0x885e0 @shift_age=5, @filename="log/reversi_random.log", @mutex=#<Logger::LogDevice::LogDeviceMutex:0x885b8 @mon_count=0, @mon_owner=nil, @mon_waiting_queue=[], @mon_entering_queue=[]>, @dev=#<File:log/reversi_random.log>, @shift_size=1048576>, @level=0, @default_formatter=#<Logger::Formatter:0x88608 @datetime_format=nil>, @formatter=nil, @progname="./class/Human_console.rb">, @e_color="W", @conf=#<Conf:0x88658 @log_level=0, @log_rotate=5, @log_file="log/reversi_random.log">, @color="B", @board=[["S", "S", "S", "S", "S", "S", "S", "S", "S", "S"], ["S", "E", "E", "E", "E", "E", "E", "E", "E", "S"], ["S", "E", "E", "E", "E", "E", "E", "E", "E", "S"], ["S", "E", "E", "E", "E", "E", "E", "E", "E", "S"], ["S", "E", "E", "E", "W", "B", "E", "E", "E", "S"], ["S", "E", "E", "E", "B", "W", "B", "E", "E", "S"], ["S", "E", "E", "E", "E", "E", "W", "E", "E", "S"], ["S", "E", "E", "E", "E", "E", "E", "E", "E", "S"], ["S", "E", "E", "E", "E", "E", "E", "E", "E", "S"]]>
+D, [2010-10-17T12:59:35.386795 #6097] DEBUG -- ./class/System_console.rb: is_pass start
+D, [2010-10-17T12:59:35.387221 #6097] DEBUG -- ./class/System_console.rb: is_pass end : return false
+D, [2010-10-17T12:59:35.387269 #6097] DEBUG -- main_console.rb: パスでない
+D, [2010-10-17T12:59:35.387901 #6097] DEBUG -- ./class/Human_console.rb: get_mobility_info start
+D, [2010-10-17T12:59:35.389177 #6097] DEBUG -- ./class/Human_console.rb: get_mobility_info end : return [{:dir=>["down"], :point=>#<Point:0x5a604 @y=3, @x=4>}, {:dir=>["right"], :point=>#<Point:0x59920 @y=4, @x=3>}, {:dir=>["right"], :point=>#<Point:0x58764 @y=5, @x=4>}, {:dir=>["left"], :point=>#<Point:0x582b4 @y=5, @x=6>}, {:dir=>["up"], :point=>#<Point:0x57580 @y=6, @x=5>}, {:dir=>["up"], :point=>#<Point:0x56450 @y=7, @x=6>}]
+D, [2010-10-17T12:59:38.845111 #6097] DEBUG -- main_console.rb: 置く場所: {:dir=>["up"], :point=>#<Point:0x57580 @y=6, @x=5>}
+D, [2010-10-17T12:59:38.845200 #6097] DEBUG -- ./class/System_console.rb: update start
+D, [2010-10-17T12:59:38.845270 #6097] DEBUG -- ./class/System_console.rb: mobility_info : {:dir=>["up"], :point=>#<Point:0x57580 @y=6, @x=5>}
+D, [2010-10-17T12:59:38.845321 #6097] DEBUG -- ./class/System_console.rb: call : "up"
+D, [2010-10-17T12:59:38.845376 #6097] DEBUG -- ./class/System_console.rb: update end
+D, [2010-10-17T12:59:38.845456 #6097] DEBUG -- ./class/System_console.rb: change_player start
+D, [2010-10-17T12:59:38.845505 #6097] DEBUG -- ./class/System_console.rb: change_player end
+D, [2010-10-17T12:59:38.845560 #6097] DEBUG -- ./class/System_console.rb: change_color start
+D, [2010-10-17T12:59:38.845606 #6097] DEBUG -- ./class/System_console.rb: change_color end
+D, [2010-10-17T12:59:38.845651 #6097] DEBUG -- ./class/System_console.rb: is_game_over start
+D, [2010-10-17T12:59:38.845697 #6097] DEBUG -- ./class/System_console.rb: is_pass start
+D, [2010-10-17T12:59:38.846326 #6097] DEBUG -- ./class/System_console.rb: is_pass end : return false
+D, [2010-10-17T12:59:38.846382 #6097] DEBUG -- ./class/System_console.rb: is_game_over end : return false
+D, [2010-10-17T12:59:38.846431 #6097] DEBUG -- main_console.rb: 手数: 3
+D, [2010-10-17T12:59:38.846638 #6097] DEBUG -- main_console.rb: プレイヤー: #<Com_console:0x8839c @undo=#<Undo:0x880b8 @board=[]>, @logger=#<Logger:0x882c0 @logdev=#<Logger::LogDevice:0x8825c @shift_age=5, @filename="log/reversi_random.log", @mutex=#<Logger::LogDevice::LogDeviceMutex:0x88234 @mon_count=0, @mon_owner=nil, @mon_waiting_queue=[], @mon_entering_queue=[]>, @dev=#<File:log/reversi_random.log>, @shift_size=1048576>, @level=0, @default_formatter=#<Logger::Formatter:0x88284 @datetime_format=nil>, @formatter=nil, @progname="./class/Com_console.rb">, @e_color="B", @conf=#<Conf:0x882e8 @log_level=0, @log_rotate=5, @log_file="log/reversi_random.log">, @color="W", @board=[["S", "S", "S", "S", "S", "S", "S", "S", "S", "S"], ["S", "E", "E", "E", "E", "E", "E", "E", "E", "S"], ["S", "E", "E", "E", "E", "E", "E", "E", "E", "S"], ["S", "E", "E", "E", "E", "E", "E", "E", "E", "S"], ["S", "E", "E", "E", "W", "B", "E", "E", "E", "S"], ["S", "E", "E", "E", "B", "B", "B", "E", "E", "S"], ["S", "E", "E", "E", "E", "B", "W", "E", "E", "S"], ["S", "E", "E", "E", "E", "E", "E", "E", "E", "S"], ["S", "E", "E", "E", "E", "E", "E", "E", "E", "S"]]>
+D, [2010-10-17T12:59:38.846723 #6097] DEBUG -- ./class/System_console.rb: is_pass start
+D, [2010-10-17T12:59:38.847313 #6097] DEBUG -- ./class/System_console.rb: is_pass end : return false
+D, [2010-10-17T12:59:38.847360 #6097] DEBUG -- main_console.rb: パスでない
+D, [2010-10-17T12:59:38.847902 #6097] DEBUG -- ./class/Com_console.rb: select_point_info start
+D, [2010-10-17T12:59:38.847955 #6097] DEBUG -- ./class/Com_console.rb: get_mobility_info start
+D, [2010-10-17T12:59:38.849519 #6097] DEBUG -- ./class/Com_console.rb: get_mobility_info end : return [{:dir=>["right_down"], :point=>#<Point:0x470f4 @y=4, @x=4>}, {:dir=>["down", "left"], :point=>#<Point:0x46b7c @y=4, @x=6>}, {:dir=>["up", "right"], :point=>#<Point:0x45088 @y=6, @x=4>}, {:dir=>["left_up"], :point=>#<Point:0x44c28 @y=6, @x=6>}]
+D, [2010-10-17T12:59:38.849583 #6097] DEBUG -- ./class/Com_console.rb: select_point_info end : return {:dir=>["left_up"], :point=>#<Point:0x44c28 @y=6, @x=6>}
+D, [2010-10-17T12:59:38.849642 #6097] DEBUG -- main_console.rb: 置く場所: {:dir=>["right_down"], :point=>#<Point:0x470f4 @y=4, @x=4>}
+D, [2010-10-17T12:59:38.849696 #6097] DEBUG -- ./class/System_console.rb: update start
+D, [2010-10-17T12:59:38.849752 #6097] DEBUG -- ./class/System_console.rb: mobility_info : {:dir=>["right_down"], :point=>#<Point:0x470f4 @y=4, @x=4>}
+D, [2010-10-17T12:59:38.849802 #6097] DEBUG -- ./class/System_console.rb: call : "right_down"
+D, [2010-10-17T12:59:38.849856 #6097] DEBUG -- ./class/System_console.rb: update end
+D, [2010-10-17T12:59:38.849910 #6097] DEBUG -- ./class/System_console.rb: change_player start
+D, [2010-10-17T12:59:38.849956 #6097] DEBUG -- ./class/System_console.rb: change_player end
+D, [2010-10-17T12:59:38.850023 #6097] DEBUG -- ./class/System_console.rb: change_color start
+D, [2010-10-17T12:59:38.850076 #6097] DEBUG -- ./class/System_console.rb: change_color end
+D, [2010-10-17T12:59:38.850123 #6097] DEBUG -- ./class/System_console.rb: is_game_over start
+D, [2010-10-17T12:59:38.850175 #6097] DEBUG -- ./class/System_console.rb: is_pass start
+D, [2010-10-17T12:59:38.850603 #6097] DEBUG -- ./class/System_console.rb: is_pass end : return false
+D, [2010-10-17T12:59:38.850650 #6097] DEBUG -- ./class/System_console.rb: is_game_over end : return false
+D, [2010-10-17T12:59:38.850696 #6097] DEBUG -- main_console.rb: 手数: 4
+D, [2010-10-17T12:59:38.850885 #6097] DEBUG -- main_console.rb: プレイヤー: #<Human_console:0x88680 @logger=#<Logger:0x88644 @logdev=#<Logger::LogDevice:0x885e0 @shift_age=5, @filename="log/reversi_random.log", @mutex=#<Logger::LogDevice::LogDeviceMutex:0x885b8 @mon_count=0, @mon_owner=nil, @mon_waiting_queue=[], @mon_entering_queue=[]>, @dev=#<File:log/reversi_random.log>, @shift_size=1048576>, @level=0, @default_formatter=#<Logger::Formatter:0x88608 @datetime_format=nil>, @formatter=nil, @progname="./class/Human_console.rb">, @e_color="W", @conf=#<Conf:0x88658 @log_level=0, @log_rotate=5, @log_file="log/reversi_random.log">, @color="B", @board=[["S", "S", "S", "S", "S", "S", "S", "S", "S", "S"], ["S", "E", "E", "E", "E", "E", "E", "E", "E", "S"], ["S", "E", "E", "E", "E", "E", "E", "E", "E", "S"], ["S", "E", "E", "E", "E", "E", "E", "E", "E", "S"], ["S", "E", "E", "E", "W", "B", "E", "E", "E", "S"], ["S", "E", "E", "E", "B", "W", "B", "E", "E", "S"], ["S", "E", "E", "E", "E", "B", "W", "E", "E", "S"], ["S", "E", "E", "E", "E", "E", "E", "E", "E", "S"], ["S", "E", "E", "E", "E", "E", "E", "E", "E", "S"]]>
+D, [2010-10-17T12:59:38.850940 #6097] DEBUG -- ./class/System_console.rb: is_pass start
+D, [2010-10-17T12:59:38.851365 #6097] DEBUG -- ./class/System_console.rb: is_pass end : return false
+D, [2010-10-17T12:59:38.851412 #6097] DEBUG -- main_console.rb: パスでない
+D, [2010-10-17T12:59:38.852181 #6097] DEBUG -- ./class/Human_console.rb: get_mobility_info start
+D, [2010-10-17T12:59:38.853530 #6097] DEBUG -- ./class/Human_console.rb: get_mobility_info end : return [{:dir=>["down"], :point=>#<Point:0x202d8 @y=3, @x=4>}, {:dir=>["right"], :point=>#<Point:0x1cd18 @y=4, @x=3>}, {:dir=>["down"], :point=>#<Point:0x1bd14 @y=4, @x=5>}, {:dir=>["right"], :point=>#<Point:0x18df8 @y=5, @x=4>}, {:dir=>["left"], :point=>#<Point:0x17e58 @y=5, @x=6>}, {:dir=>["up"], :point=>#<Point:0x159a0 @y=6, @x=5>}, {:dir=>["left"], :point=>#<Point:0x14c30 @y=6, @x=7>}, {:dir=>["up"], :point=>#<Point:0x13074 @y=7, @x=6>}]
